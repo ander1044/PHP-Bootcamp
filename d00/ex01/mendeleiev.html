@@ -2,13 +2,21 @@
     <head>
         <title></title>
         <style>
-            .letter{text-align: center;}
+            .letter{text-align: center;
+            }
             table{ 
                 width: 900px;
-                height: 600px;
+                height: 500px;
                 }
             table, td{
                 border: 1px solid black;
+
+            }
+            .hidden{ border: none;
+
+            }
+            .mass{text-align: right;
+
             }
         </style>
     </head>
@@ -36,7 +44,10 @@
                 <th>18</th>
             </tr>
             <tr>
-                <td><div class="letter">H</div></td>
+                <td><div class="mass">1.008</div>
+                    <div class="letter">H</div></td>
+                <td colspan="16"></td>
+                <!-- <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -50,14 +61,17 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td><div class="letter">He</div></td>
+                <td></td> -->
+                <td><div class="mass">4.0026</div>
+                    <div class="letter">He</div></td>
             </tr>
             <tr>
-                    <td><div class="letter">Li</div></td>
-                    <td><div class="letter">Be</div></td>
+                    <td><div class="mass">6.94</div>
+                        <div class="letter">Li</div></td>
+                    <td><div class="mass">9.0122</div>
+                        <div class="letter">Be</div></td>
+                     <td colspan="10"></td>
+                    <!-- <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -65,19 +79,28 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><div class="letter">B</div></td>
-                    <td><div class="letter">C</div></td>
-                    <td><div class="letter">N</div></td>
-                    <td><div class="letter">O</div></td>
-                    <td><div class="letter">F</div></td>
-                    <td><div class="letter">Ne</div></td>
+                    <td></td> -->
+                    <td><div class="mass">10.81</div>
+                        <div class="letter">B</div></td>
+                    <td><div class="mass">12.011</div>
+                        <div class="letter">C</div></td>
+                    <td><div class="mass">14.007</div>
+                        <div class="letter">N</div></td>
+                    <td><div class="mass">15.999</div>
+                        <div class="letter">O</div></td>
+                    <td><div class="mass">18.998</div>
+                        <div class="letter">F</div></td>
+                    <td><div class="mass">20.180</div>
+                        <div class="letter">Ne</div></td>
                 </tr>
                 <tr>
-                        <td><div class="letter">Na</div></td>
-                        <td><div class="letter">Mg</div></td>
+                        <td><div class="mass">22.990</div>
+                            <div class="letter">Na</div></td>
+                        <td><div class="mass">24.305</div>
+                            <div class="letter">Mg</div></td>
+                        <div class="hidden">
+                       <td  colspan="10"></td></div>
+                         <!-- <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -85,55 +108,95 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><div class="letter">Al</div></td>
-                        <td><div class="letter">Si</div></td>
-                        <td><div class="letter">P</div></td>
-                        <td><div class="letter">S</div></td>
-                        <td><div class="letter">Cl</div></td>
-                        <td><div class="letter">Ar</div></td>
+                        <td></td> -->
+                        <td><div class="mass">26.982</div>
+                            <div class="letter">Al</div></td>
+                        <td><div class="mass">28.085</div>
+                            <div class="letter">Si</div></td>
+                        <td><div class="mass">30.974</div>
+                            <div class="letter">P</div></td>
+                        <td><div class="mass">32.06</div>
+                            <div class="letter">S</div></td>
+                        <td><div class="mass">35.45</div>
+                            <div class="letter">Cl</div></td>
+                        <td><div class="mass">39.88</div>
+                            <div class="letter">Ar</div></td>
                         </tr>
                 <tr>
-                <td><div class="letter">K</div></td>
-                <td><div class="letter">Ca</div></td>
-                <td><div class="letter">Sc</div></td>
-                <td><div class="letter">Ti</div></td>
-                <td><div class="letter">V</div></td>
-                <td><div class="letter">Cr</div></td>
-                <td><div class="letter">Mn</div></td>
-                <td><div class="letter">Fe</div></td>
-                <td><div class="letter">Co</div></td>
-                <td><div class="letter">Ni</div></td>
-                <td><div class="letter">Cu</div></td>
-                <td><div class="letter">Zn</div></td>
-                <td><div class="letter">Ga</div></td>
-                <td><div class="letter">Ge</div></td>
-                <td><div class="letter">As</div></td>
-                <td><div class="letter">Se</div></td>
-                <td><div class="letter">Br</div></td>
-                <td><div class="letter">Kr</div></td>
+                <td><div class="mass">39.098</div>
+                    <div class="letter">K</div></td>
+                <td><div class="mass">40.078</div>
+                    <div class="letter">Ca</div></td>
+                <td><div class="mass">44.956</div>
+                    <div class="letter">Sc</div></td>
+                <td><div class="mass">47.867</div>
+                    <div class="letter">Ti</div></td>
+                <td><div class="mass">50.942</div>
+                    <div class="letter">V</div></td>
+                <td><div class="mass">51.996</div>
+                    <div class="letter">Cr</div></td>
+                <td><div class="mass">54.938</div>
+                    <div class="letter">Mn</div></td>
+                <td><div class="mass">55.845</div>
+                    <div class="letter">Fe</div></td>
+                <td><div class="mass">58.933</div>
+                    <div class="letter">Co</div></td>
+                <td><div class="mass">58.693</div>
+                    <div class="letter">Ni</div></td>
+                <td><div class="mass">63.546</div>
+                    <div class="letter">Cu</div></td>
+                <td><div class="mass">65.38</div>
+                    <div class="letter">Zn</div></td>
+                <td><div class="mass">69.723</div>
+                    <div class="letter">Ga</div></td>
+                <td><div class="mass">72.630</div>
+                    <div class="letter">Ge</div></td>
+                <td><div class="mass">74.922</div>
+                    <div class="letter">As</div></td>
+                <td><div class="mass">78.971</div>
+                    <div class="letter">Se</div></td>
+                <td><div class="mass">79.904</div>
+                    <div class="letter">Br</div></td>
+                <td><div class="mass">83.798</div>
+                    <div class="letter">Kr</div></td>
                 
                         <tr>
-                                <td><div class="letter">Rb</div></td>
-                                <td><div class="letter">Sr</div></td>
-                                <td><div class="letter">Y</div></td>
-                                <td><div class="letter">Zr</div></td>
-                                <td><div class="letter">Nb</div></td>
-                                <td><div class="letter">Mo</div></td>
-                                <td><div class="letter">Tc</div></td>
-                                <td><div class="letter">Ru</div></td>
-                                <td><div class="letter">Rh</div></td>
-                                <td><div class="letter">Pd</div></td>
-                                <td><div class="letter">Ag</div></td>
-                                <td><div class="letter">Cd</div></td>
-                                <td><div class="letter">In</div></td>
-                                <td><div class="letter">Sn</div></td>
-                                <td><div class="letter">Sb</div></td>
-                                <td><div class="letter">Te</div></td>
-                                <td><div class="letter">I</div></td>
-                                <td><div class="letter">Xe</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Rb</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Sr</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Y</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Zr</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Nb</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Mo</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Tc</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Ru</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Rh</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Pd</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Ag</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Cd</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">In</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Sn</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Sb</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Te</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">I</div></td>
+                                <td><div class="mass">83.798</div>
+                                    <div class="letter">Xe</div></td>
                                 </tr>
                                 <tr>
                                         <td><div class="letter">Cs</div></td>
