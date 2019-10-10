@@ -1,0 +1,29 @@
+body{background-color:wheat;
+}
+.letter{text-align: center;}
+table{ 
+       width: 100%;
+       height: 300px;
+    }
+td{
+   border: 0px solid black;
+   border-color: mediumspringgreen;
+   }
+.mass{  text-align: right;
+       font-size: x-small;
+       margin-top: 0;
+    }
+     .no{text-align: left;
+         font-size: x-small;
+         margin-bottom: 0;
+        }
+        .left{background-color:teal;
+       }
+       .center{background-color:rgb(179, 31, 192);
+       }
+       .right{background-color:rgb(100, 187, 29);
+       }
+
+.hide{
+  visibility: hidden;
+}
