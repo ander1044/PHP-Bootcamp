@@ -1,9 +1,14 @@
 #!/usr/bin/php
 <?php
-
+while(true)
+{
 echo "Enter a number: ";
  $num = rtrim(fgets(STDIN));
+ if(feof(STDIN))
 {
+    echo ("^D\n");
+    exit();
+}
 if(is_numeric($num))
 {
     if($num == 0){
